@@ -182,17 +182,28 @@ main {
     padding-left: 20px;
 }
 
+.feature-img img {
+    height: 90%;
+    margin-left: 50px;
+}
+
 .ten-years-badge {
     background-color: #FF900E;
     border-radius: 8px;
     color: white;
     padding: 45px;
     width: 345px;
+    text-align: center;
+    position: relative;
+    bottom: 110px;
 }
 
 .ten-years-badge h2 {
     font-size: 4rem;
-    
+    margin: 0;
+}
+.ten-years-badge p {
+    font-size: 1.5rem;
 }
 
 
@@ -206,7 +217,7 @@ main {
         padding: 20px;
     }
 
-    nav,.team-section,  .facts-card-container, .sponsors-img-container  {
+    nav,.team-section,  .facts-card-container, .sponsors-img-container, .feature  {
         flex-direction: column;
     }
 
@@ -218,6 +229,17 @@ main {
     }
     .facts-card-container {
         gap: 20px;
+    }
+
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ten-years-badge {
+        max-width: 250px;
+        position: static;
+        padding: 0;
     }
    
 }
